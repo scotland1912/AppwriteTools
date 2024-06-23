@@ -1,5 +1,5 @@
 {
-  "originHash" : "d8d1414767255f64a9c4aa571e49114e44703073ad0d0fe31b0af4310749f355",
+  "originHash" : "18d17eb0e4991a11d2d00418bd09ec6888fa3c33885cbb42b13eddb67be98366",
   "pins" : [
     {
       "identity" : "async-http-client",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "git@github.com:appwrite/sdk-for-apple.git",
       "state" : {
-        "revision" : "3b20b483dcc7a47ffb91cec8485c34b0e44e89c9",
-        "version" : "6.0.0"
+        "revision" : "c39030db9af1e2dd7b36f8df45f838c5f7dfb0da",
+        "version" : "5.0.0"
       }
     },
     {
