@@ -3,7 +3,7 @@ import SwiftUI
 
 import Appwrite
 
-public struct LoginView: View {
+public struct AppwriteLoginView: View {
     
     @Binding var email: String
     @Binding var password: String
@@ -89,5 +89,5 @@ public struct LoginView: View {
 }
 
 #Preview {
-    LoginView(email: .constant("test@test.test"), password: .constant("testtest"), isLoading: .constant(false), resetPasswordAction: { print("Reset Password") }, loginAction: { print("Login") }, registerAction: { print("Register") }, invertedLightMode: false)
+    AppwriteLoginView(email: .constant("test@test.test"), password: .constant("testtest"), isLoading: .constant(false), resetPasswordAction: { print("Reset Password") }, loginAction: { print("Login") }, registerAction: { print("Register") }, invertedLightMode: false)
 }
