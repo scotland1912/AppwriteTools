@@ -45,6 +45,8 @@ public struct AppwriteLoginView: View {
                         VStack {
                             if isLoading {
                                 ProgressView()
+                                    .progressViewStyle(.circular)
+                                    .tint(.blue)
                             } else {
                                 Text("Anmelden")
                                     .bold()
@@ -73,6 +75,7 @@ public struct AppwriteLoginView: View {
                         .listRowBackground(invertedLightMode ? Color(uiColor: .systemBackground) : Color(uiColor: .systemGroupedBackground))
                     }
                 }
+                .background(invertedLightMode ? Color(uiColor: .systemBackground) : Color(uiColor: .systemGroupedBackground))
             }
             .scrollContentBackground(invertedLightMode ? .hidden : .visible)
             .listSectionSpacing(32)
